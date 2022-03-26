@@ -17,7 +17,7 @@ minimize Energy:
 obminimize
 obminimize -ff MMFF94 -n 1000 *.sdf           (n= number of steps to run this)
 obabel -isdf *.sdf -opdbqt -O*.pdbqt          (to convert sdf files to pdbqt)
-ls >ligand.txt                                ( all ligand in one txt file) 
+ls >ligand.txt                                ( all ligands in one txt file) 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
