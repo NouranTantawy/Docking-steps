@@ -13,6 +13,7 @@ Prepare Ligands:
 if ligands (100 ligands named with 100.sdf) are at the same sdf files & we need to extract them all to 100 molecules:
 obabel -isdf 100.sdf -osdf -O *.sdf --split
 
+minimize Energy:
 obminimize
 obminimize -ff MMFF94 -n 1000 *.sdf           (n= number of steps to run this)
 obabel -isdf *.sdf -opdbqt -O*.pdbqt          (to convert sdf files to pdbqt)
