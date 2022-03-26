@@ -42,7 +42,7 @@ energy_range = 4
 Prepare vina_linux.pl:
 
 #!/usr/bin/perl
-print"Enter filename of ligands list:\t";
+print"ligand:\t";
 $ligfile=<STDIN>;
 chomp $ligfile;
 open (FH,$ligfile)||die "Cannot open file\n";
